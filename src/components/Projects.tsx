@@ -12,7 +12,7 @@ const PROJECTS = [
     stack: ['Next.js', 'NestJS', 'GraphQL', 'Prisma', 'PostgreSQL'],
     links: {
       live: 'https://sift-shop.xyz',
-      github: 'https://github.com/sifmeop/sift-shop'
+      github: 'https://github.com/selivestru/sift-shop'
     }
   },
   {
@@ -25,7 +25,7 @@ const PROJECTS = [
     stack: ['React', 'TypeScript', 'Zustand', 'Framer Motion'],
     links: {
       live: 'https://sift-ludo.vercel.app',
-      github: 'https://github.com/sifmeop/sift-ludo'
+      github: 'https://github.com/selivestru/sift-ludo'
     }
   },
   {
@@ -38,7 +38,7 @@ const PROJECTS = [
     stack: ['Next.js', 'tRPC', 'TanStack Query', 'Prisma'],
     links: {
       live: 'https://sift-rate.xyz',
-      github: 'https://github.com/sifmeop/sift-rate'
+      github: 'https://github.com/selivestru/sift-rate'
     }
   }
 ]

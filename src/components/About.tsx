@@ -10,9 +10,15 @@ export const About = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.4 }}
         transition={{ duration: 0.5, ease: 'easeOut' }}>
-        Frontend developer with 2.6 years of experience, focused on building
-        polished user interfaces with React and Next.js. <br /> I care about
-        clean code, smooth animations, and experiences that feel right.
+        Frontend Developer with 2.6 years of commercial experience in production
+        systems. Specializing in React/Next.js with solid skills in backend
+        architecture (Node.js, GraphQL, microservices). Experienced in building
+        critical real-time systems, including crypto exchanges, blockchain
+        integrations, and payment gateways. Deep understanding of the full
+        development lifecycle, from UI/UX to production deployment. Highly
+        adaptable to new technologies and ready for challenges. Leveraging
+        modern AI tools to accelerate development workflow (core stack: Claude
+        Code, Codex, OpenCode).
       </motion.p>
     </Section>
   )

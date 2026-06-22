@@ -5,7 +5,7 @@ import { IoMail } from 'react-icons/io5'
 import { TbFileCvFilled } from 'react-icons/tb'
 
 const LINKS: { icon: IconType; link: string }[] = [
-  { icon: FaGithub, link: 'https://github.com/sifmeop' },
+  { icon: FaGithub, link: 'https://github.com/selivestru' },
   { icon: FaLinkedin, link: 'https://www.linkedin.com/in/eugene-selivestru' },
   { icon: IoMail, link: 'mailto:sifmeop@gmail.com' },
   { icon: FaTelegramPlane, link: 'https://t.me/selivestru' },
