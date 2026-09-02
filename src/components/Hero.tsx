@@ -9,7 +9,10 @@ const LINKS: { icon: IconType; link: string }[] = [
   { icon: FaLinkedin, link: 'https://www.linkedin.com/in/eugene-selivestru' },
   { icon: IoMail, link: 'mailto:sifmeop@gmail.com' },
   { icon: FaTelegramPlane, link: 'https://t.me/selivestru' },
-  { icon: TbFileCvFilled, link: '/cv.pdf' }
+  {
+    icon: TbFileCvFilled,
+    link: '/Selivestru_Eugene_FullStack_Developer_CV.pdf'
+  }
 ]
 
 export const Hero = () => {
@@ -54,7 +57,7 @@ export const Hero = () => {
         ))}
       </motion.div>
       <p className='font-mono text-2xl font-medium underline opacity-80'>
-        Ukraine, Dnipro
+        Samar, Ukraine
       </p>
     </motion.section>
   )

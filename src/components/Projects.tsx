@@ -3,6 +3,25 @@ import { Section } from './Section'
 
 const PROJECTS = [
   {
+    title: 'SiftRate',
+    image: '/images/siftrate.webp',
+    description: ['Personal Media Archive & Tracker'],
+    stack: [
+      'React',
+      'TanStack',
+      'NestJS',
+      'Prisma',
+      'PostgreSQL',
+      'Redis',
+      'BullMQ',
+      'Docker',
+      'Caddy'
+    ],
+    links: {
+      live: 'https://siftrate.com'
+    }
+  },
+  {
     title: 'Sift-Shop',
     image: '/images/sift-shop.webp',
     description: [
@@ -11,7 +30,6 @@ const PROJECTS = [
     ],
     stack: ['Next.js', 'NestJS', 'GraphQL', 'Prisma', 'PostgreSQL'],
     links: {
-      live: 'https://sift-shop.xyz',
       github: 'https://github.com/selivestru/sift-shop'
     }
   },
@@ -26,19 +44,6 @@ const PROJECTS = [
     links: {
       live: 'https://sift-ludo.vercel.app',
       github: 'https://github.com/selivestru/sift-ludo'
-    }
-  },
-  {
-    title: 'Sift-Rate',
-    image: '/images/sift-rate.webp',
-    description: [
-      'PWA for rating movies, games, books and music',
-      'with yearly stats, timeline and API integrations.'
-    ],
-    stack: ['Next.js', 'tRPC', 'TanStack Query', 'Prisma'],
-    links: {
-      live: 'https://sift-rate.xyz',
-      github: 'https://github.com/selivestru/sift-rate'
     }
   }
 ]
@@ -105,20 +110,24 @@ export const Projects = () => {
               ))}
             </div>
             <div className='flex flex-wrap items-center gap-4 text-sm'>
-              <a
-                href={links.live}
-                target='_blank'
-                rel='noreferrer'
-                className='rounded-full border border-white/20 px-4 py-2 text-xs tracking-[0.2em] uppercase transition hover:border-white/60 hover:text-white'>
-                Live
-              </a>
-              <a
-                href={links.github}
-                target='_blank'
-                rel='noreferrer'
-                className='rounded-full border border-white/20 px-4 py-2 text-xs tracking-[0.2em] uppercase transition hover:border-white/60 hover:text-white'>
-                GitHub
-              </a>
+              {links.live && (
+                <a
+                  href={links.live}
+                  target='_blank'
+                  rel='noreferrer'
+                  className='rounded-full border border-white/20 px-4 py-2 text-xs tracking-[0.2em] uppercase transition hover:border-white/60 hover:text-white'>
+                  Live
+                </a>
+              )}
+              {links.github && (
+                <a
+                  href={links.github}
+                  target='_blank'
+                  rel='noreferrer'
+                  className='rounded-full border border-white/20 px-4 py-2 text-xs tracking-[0.2em] uppercase transition hover:border-white/60 hover:text-white'>
+                  GitHub
+                </a>
+              )}
             </div>
           </motion.div>
         ))}

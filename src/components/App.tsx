@@ -22,7 +22,7 @@ export const App = () => {
       </motion.div>
       <motion.div className='flex justify-center'>
         <motion.a
-          href='/cv.pdf'
+          href='/Selivestru_Eugene_FullStack_Developer_CV.pdf'
           target='_blank'
           rel='noreferrer'
           className='border-border flex items-center gap-3 rounded-full border bg-white/5 px-6 py-3 text-sm leading-7 font-semibold backdrop-blur'
