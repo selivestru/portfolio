@@ -18,7 +18,8 @@ const PROJECTS = [
       'Caddy'
     ],
     links: {
-      live: 'https://siftrate.com'
+      live: 'https://siftrate.com',
+      github: 'https://github.com/selivestru/sift-rate-v3'
     }
   },
   {
